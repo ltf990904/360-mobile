@@ -55,6 +55,7 @@ button {
   position: relative;
 }
 .layout .index_swiper_row .main_menu {
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 11;
