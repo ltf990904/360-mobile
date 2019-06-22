@@ -147,4 +147,53 @@
       }
     }
   }
+
+  // 智能硬件
+  .hardware {
+    .hardware_title {
+      padding: 10rem/32;
+      font-size: 28rem/32;
+      color: @themeColor;
+      border-bottom: 1rem/32 dashed currentColor;
+    }
+
+    .hardware_content {
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+          width: 50%;
+          border-bottom: 1rem/32 solid @themeColor;
+
+          .hardware_item {
+            padding: 10rem/32;
+
+            .hardware_name {
+              font-size: 16rem/32;
+              color: #000;
+              margin-bottom: 4rem/32;
+            }
+
+            .hardware_des {
+              color: @themeColor;
+            }
+
+            .hardware_price {
+              color: red;
+            }
+          }
+        }
+
+        li:nth-child(odd) {
+          border-right: 1rem/32 solid @themeColor;
+        }
+
+        li:last-child {
+          width: 100%;
+          border-right: none;
+        }
+      }
+    }
+  }
 }

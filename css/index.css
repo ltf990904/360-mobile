@@ -144,3 +144,38 @@ button {
   width: 15%;
   display: inline-block;
 }
+.layout .hardware .hardware_title {
+  padding: 0.3125rem;
+  font-size: 0.875rem;
+  color: #23ac38;
+  border-bottom: 0.03125rem dashed currentColor;
+}
+.layout .hardware .hardware_content ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.layout .hardware .hardware_content ul li {
+  width: 50%;
+  border-bottom: 0.03125rem solid #23ac38;
+}
+.layout .hardware .hardware_content ul li .hardware_item {
+  padding: 0.3125rem;
+}
+.layout .hardware .hardware_content ul li .hardware_item .hardware_name {
+  font-size: 0.5rem;
+  color: #000;
+  margin-bottom: 0.125rem;
+}
+.layout .hardware .hardware_content ul li .hardware_item .hardware_des {
+  color: #23ac38;
+}
+.layout .hardware .hardware_content ul li .hardware_item .hardware_price {
+  color: red;
+}
+.layout .hardware .hardware_content ul li:nth-child(odd) {
+  border-right: 0.03125rem solid #23ac38;
+}
+.layout .hardware .hardware_content ul li:last-child {
+  width: 100%;
+  border-right: none;
+}
