@@ -261,7 +261,34 @@
       flex: 1;
       background-color: @themeColor;
       color: #fff;
+      font-size: 12rem/32;
     }
+  }
+
+  // 底部链接
+  .index_links {
+    display: flex;
+    justify-content: center;
+    padding: 20rem/32 0;
+    font-size: 16rem/32;
+
+    a {
+      padding: 0 10rem/32;
+      color: #000;
+      border-right: 1rem/32 solid currentColor;
+
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+
+  // 底部版权
+  .copy_right {
+    text-align: center;
+    padding: 20rem/32 0;
+    color: #000;
+    background-color: #f6f6f6;
   }
 
 }
