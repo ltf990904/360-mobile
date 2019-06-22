@@ -74,4 +74,77 @@
       }
     }
   }
+
+  // 隔色带
+  .line {
+    background-color: #ccc;
+    height: 10rem/32;
+  }
+
+  // 手机软件
+  .phone_software {
+    .phone_software_title {
+      padding: 10rem/32;
+      font-size: 28rem/32;
+      color: @themeColor;
+      border-bottom: 1rem/32 dashed currentColor;
+    }
+
+    .phone_software_content {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10rem/32;
+
+      .software_item {
+        margin-bottom: 20rem/32;
+        width: 25%;
+        text-align: center;
+
+        img {
+          width: 60%;
+          display: inline-block;
+        }
+
+        .softsize {
+          color: #ccc;
+          padding: 5rem/32 0;
+        }
+
+        .softdownload {
+          background-color: #def3e1;
+          color: @themeColor;
+          display: inline-block;
+          padding: 3rem/32 8rem/32;
+          border-radius: 40%;
+        }
+      }
+    }
+
+    .phone_software_others {
+      .text-ul {
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+          margin: 5rem/32 1%;
+          border: 1rem/32 solid @themeColor;
+          width: 23%;
+          background-color: #f8f8f8;
+
+          .box {
+            a {
+              font-size: 12rem/32;
+              text-align: center;
+              padding: 10rem/32 0;
+
+              img {
+                width: 15%;
+                display: inline-block;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
